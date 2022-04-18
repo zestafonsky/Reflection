@@ -1,19 +1,21 @@
 # Reflection
 
-Questions for the self-check:
+This module introduces the basics of “Reflection” – mechanism allowing to obtain type information at runtime. Practical task includes implementation and usage of a custom attribute, as well as creation of a simple “plugin” application.
 
-What is reflection in .NET? 
+## Questions for the self-check:
 
-What does reflection allow you to do? 
+1. What is reflection in .NET? 
 
-What are fully qualified type names? 
+2. What does reflection allow you to do? 
 
-What examples of practical application of reflection can you imagine? 
+3. What are fully qualified type names? 
 
-Is it possible to get information about private fields/methods using reflection?
+4. What examples of practical application of reflection can you imagine? 
+
+5. Is it possible to get information about private fields/methods using reflection?
 
 
-# Tasks 1: 
+### Tasks 1: 
 
 Create a console application which demonstrates the use of a custom attribute. 
 
@@ -23,9 +25,11 @@ FileConfigurationProvider and ConfigurationManagerConfigurationProvider, which w
 
 It could be a single attribute ConfigurationItemAttribute with parameters:
 
-settingName, providerType (File, Configuration Manager); or multiple attributes: 
+* settingName, providerType (File, Configuration Manager); 
 
-FileConfigurationItemAttribute, ConfigurationManagerConfigurationItemAttribute. 
+or multiple attributes: 
+
+* FileConfigurationItemAttribute, ConfigurationManagerConfigurationItemAttribute. 
 
 Any other settings providers are also acceptable, even instead of proposed ones (File / Configuration Manager). 
 
@@ -40,13 +44,17 @@ Requirements:
 
 4. Reading / Writing of the settings could be initiated either by a method used in Set / Get parts of the property, or, as a simpler approach, by the methods of the base class (ConfigurationComponentBase): 
 
-SaveSettings, LoadSettings, which will be invoked externally.
+    * SaveSettings, LoadSettings, which will be invoked externally.
 
 
-# Task 2: 
+### Task 2: 
 
 Required modification of the application from task 1. 
 
 Move the implementation of the configuration providers (FileConfigurationProvider, ConfigurationManagerConfigurationProvider) into separate assembly files (dll projects) connected to the application as plugins via reflection. 
 
 Attributes themselves could be left in the application project (for easier usage), but the logic related to the specific settings storage should be moved into separate assemblies. 
+
+## Self-study Materials
+
+
