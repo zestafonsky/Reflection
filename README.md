@@ -57,4 +57,31 @@ Attributes themselves could be left in the application project (for easier usage
 
 ## Self-study Materials
 
+* [.NET collections and data structures overview](https://docs.microsoft.com/en-us/dotnet/standard/collections)
 
+* [C# collections](https://www.linkedin.com/learning/c-sharp-collections)
+
+* [Linked list (reading)](https://www.geeksforgeeks.org/data-structures/linked-list/)
+
+* [Stack](https://www.geeksforgeeks.org/stack-data-structure/)
+
+* [Queue](https://www.geeksforgeeks.org/queue-data-structure/)
+
+* Linked list:
+
+   * [Introduction to Linked Lists in C#](https://youtu.be/lcNL_HLpcEs) 
+
+   * [Developing a Linked List in C#](https://youtu.be/3svB0kM6f10)
+   
+   * [Linked list implemented in C#](https://youtu.be/GcC5kW9tyOQ)
+
+* Stack and Queue 
+
+   * [Introduction Stacks and Queues in C#](https://youtu.be/DYQKPcADytc)
+   
+   * [Stacks and Queues in C#](https://youtu.be/tW75yz3X_M4)
+ 
+
+* Programming Foundations:
+
+   * [Algorithms](https://www.linkedin.com/learning/programming-foundations-algorithms)
